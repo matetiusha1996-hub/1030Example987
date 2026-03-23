@@ -17,11 +17,11 @@ public class TestGetAIPs11 {
 		Response res = req.get();
 		System.out.println(res.statusCode());
 		System.out.println(res.asString());
-		System.out.println(res.getHeaders());
+		//System.out.println(res.getHeaders());
 		
 		
-		System.out.println(res.getTime());
-		System.out.println(res.cookies());
+		//System.out.println(res.getTime());
+		//System.out.println(res.cookies());
 
 	}
 
